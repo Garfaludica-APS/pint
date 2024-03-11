@@ -1,18 +1,22 @@
 {
-    "name": "laravel/pint",
-    "description": "An opinionated code formatter for PHP.",
+    "name": "Garfaludica-APS/pint",
+    "description": "Laravel Pint with tab support.",
     "keywords": ["php", "format", "formatter", "lint", "linter"],
-    "homepage": "https://laravel.com",
+    "homepage": "https://github.com/Garfaludica-APS/pint",
     "type": "project",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/pint/issues",
-        "source": "https://github.com/laravel/pint"
+        "issues": "https://github.com/Garfaludica-APS/pint/issues",
+        "source": "https://github.com/Garfaludica-APS/pint"
     },
     "authors": [
         {
             "name": "Nuno Maduro",
             "email": "enunomaduro@gmail.com"
+        },
+        {
+            "name": "Niccolò Scatena",
+            "email": "speedjack95@gmail.com"
         }
     ],
     "require": {

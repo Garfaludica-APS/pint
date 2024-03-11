@@ -49,6 +49,16 @@ class ConfigurationJsonRepository
         return $this->get()['rules'] ?? [];
     }
 
+    public function indent()
+    {
+        return $this->get()['indent'] ?? '    ';
+    }
+
+    public function lineEnding()
+    {
+        return $this->get()['line-ending'] ?? "\n";
+    }
+
     /**
      * Get the cache file location.
      *

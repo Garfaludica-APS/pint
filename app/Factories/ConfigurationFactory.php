@@ -44,6 +44,8 @@ class ConfigurationFactory
         return (new Config())
             ->setFinder(self::finder())
             ->setRules(array_merge($rules, resolve(ConfigurationJsonRepository::class)->rules()))
+            ->setIndent(resolve(ConfigurationJsonRepository::class)->indent())
+            ->setLineEnding(resolve(ConfigurationJsonRepository::class)->lineEnding())
             ->setRiskyAllowed(true)
             ->setUsingCache(true);
     }
