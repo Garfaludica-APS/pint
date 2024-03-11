@@ -1,5 +1,5 @@
 {
-    "name": "Garfaludica-APS/pint",
+    "name": "garfaludica-aps/pint",
     "description": "Laravel Pint with tab support.",
     "keywords": ["php", "format", "formatter", "lint", "linter"],
     "homepage": "https://github.com/Garfaludica-APS/pint",
