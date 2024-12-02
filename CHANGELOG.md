@@ -1,6 +1,65 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/pint/compare/v1.15.0...main)
+## [Unreleased](https://github.com/laravel/pint/compare/v1.18.3...main)
+
+## [v1.18.3](https://github.com/laravel/pint/compare/v1.18.2...v1.18.3) - 2024-11-26
+
+* PHP-CS-Fixer v3.56.0. https://github.com/laravel/pint/pull/308
+
+## [v1.18.2](https://github.com/laravel/pint/compare/v1.18.1...v1.18.2) - 2024-11-20
+
+* Enforces `snake_case` in PHPUnit test methods. https://github.com/laravel/pint/pull/300
+* Enforces visibility for PHPUnit `setUp` and `tearDown` methods. https://github.com/laravel/pint/pull/301
+
+## [v1.18.1](https://github.com/laravel/pint/compare/v1.18.0...v1.18.1) - 2024-09-24
+
+* [1.x] Fixed corrupted binary
+
+## [v1.18.0](https://github.com/laravel/pint/compare/v1.17.3...v1.18.0) - 2024-09-24
+
+* [1.x] Rename rule set `[@PER](https://github.com/PER)` to `[@PER-CS](https://github.com/PER-CS)` by [@dinhquochan](https://github.com/dinhquochan) in https://github.com/laravel/pint/pull/295
+
+## [v1.17.3](https://github.com/laravel/pint/compare/v1.17.2...v1.17.3) - 2024-09-03
+
+* [1.x] Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/294
+
+## [v1.17.2](https://github.com/laravel/pint/compare/v1.17.1...v1.17.2) - 2024-08-06
+
+* [1.x] Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/292
+
+## [v1.17.1](https://github.com/laravel/pint/compare/v1.17.0...v1.17.1) - 2024-08-01
+
+* Rules are not applied when "empty" is specified for the preset by [@takeshiemoto](https://github.com/takeshiemoto) in https://github.com/laravel/pint/pull/289
+
+## [v1.17.0](https://github.com/laravel/pint/compare/v1.16.2...v1.17.0) - 2024-07-23
+
+* Add empty preset to the list by [@imanghafoori1](https://github.com/imanghafoori1) in https://github.com/laravel/pint/pull/283
+* Laravel preset class parentheses by [@brdv](https://github.com/brdv) in https://github.com/laravel/pint/pull/285
+
+## [v1.16.2](https://github.com/laravel/pint/compare/v1.16.1...v1.16.2) - 2024-07-09
+
+* Create empty preset by [@imanghafoori1](https://github.com/imanghafoori1) in https://github.com/laravel/pint/pull/282
+
+## [v1.16.1](https://github.com/laravel/pint/compare/v1.16.0...v1.16.1) - 2024-06-18
+
+* [1.x] Enable single_line_empty_body fixer by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/277
+* [1.x] Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/279
+
+## [v1.16.0](https://github.com/laravel/pint/compare/v1.15.3...v1.16.0) - 2024-05-21
+
+* [1.x] Enable Parallel Execution by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/272
+
+## [v1.15.3](https://github.com/laravel/pint/compare/v1.15.2...v1.15.3) - 2024-04-30
+
+* feat: Add a --with-exit-status flag by [@dshafik](https://github.com/dshafik) in https://github.com/laravel/pint/pull/270
+
+## [v1.15.2](https://github.com/laravel/pint/compare/v1.15.1...v1.15.2) - 2024-04-23
+
+* [1.x] Bump dependencies by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/pint/pull/267
+
+## [v1.15.1](https://github.com/laravel/pint/compare/v1.15.0...v1.15.1) - 2024-04-02
+
+* Enable --help flag for pint by [@penyaskito](https://github.com/penyaskito) in https://github.com/laravel/pint/pull/264
 
 ## [v1.15.0](https://github.com/laravel/pint/compare/v1.14.0...v1.15.0) - 2024-03-26
 

@@ -82,6 +82,10 @@ return ConfigurationFactory::preset([
     ],
     'native_function_casing' => true,
     'native_type_declaration_casing' => true,
+    'new_with_parentheses' => [
+        'named_class' => false,
+        'anonymous_class' => false,
+    ],
     'no_alias_functions' => true,
     'no_alias_language_construct_call' => true,
     'no_alternative_syntax' => true,
@@ -137,6 +141,8 @@ return ConfigurationFactory::preset([
     'ordered_imports' => ['sort_algorithm' => 'alpha', 'imports_order' => ['const', 'class', 'function']],
     'ordered_interfaces' => true,
     'ordered_traits' => true,
+    'php_unit_method_casing' => ['case' => 'snake_case'],
+    'php_unit_set_up_tear_down_visibility' => true,
     'phpdoc_align' => [
         'align' => 'left',
         'spacing' => [
@@ -187,6 +193,7 @@ return ConfigurationFactory::preset([
     'single_line_comment_style' => [
         'comment_types' => ['hash'],
     ],
+    'single_line_empty_body' => true,
     'single_quote' => true,
     'single_space_around_construct' => true,
     'space_after_semicolon' => true,
