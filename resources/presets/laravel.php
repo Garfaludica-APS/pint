@@ -127,6 +127,7 @@ return ConfigurationFactory::preset([
         'statements' => ['break', 'clone', 'continue', 'echo_print', 'return', 'switch_case', 'yield'],
     ],
     'no_unneeded_braces' => true,
+    'no_unneeded_import_alias' => true,
     'no_unreachable_default_argument_value' => true,
     'no_unset_cast' => true,
     'no_unused_imports' => true,
@@ -190,6 +191,7 @@ return ConfigurationFactory::preset([
     ],
     'single_import_per_statement' => true,
     'single_line_after_imports' => true,
+    'single_line_comment_spacing' => true,
     'single_line_comment_style' => [
         'comment_types' => ['hash'],
     ],

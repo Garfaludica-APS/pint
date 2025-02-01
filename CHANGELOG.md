@@ -1,6 +1,15 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/pint/compare/v1.18.3...main)
+## [Unreleased](https://github.com/laravel/pint/compare/v1.20.0...main)
+
+## [v1.20.0](https://github.com/laravel/pint/compare/v1.19.0...v1.20.0) - 2025-01-14
+
+* Adds `--diff` option. https://github.com/laravel/pint/pull/327
+
+## [v1.19.0](https://github.com/laravel/pint/compare/v1.18.3...v1.19.0) - 2024-12-30
+
+* Adds `single_line_comment_spacing` rule. https://github.com/laravel/pint/pull/315
+* Ignores PHP 8.4 deprecations. https://github.com/laravel/pint/pull/319
 
 ## [v1.18.3](https://github.com/laravel/pint/compare/v1.18.2...v1.18.3) - 2024-11-26
 
